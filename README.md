@@ -1,73 +1,69 @@
-# Welcome to your Lovable project
+This is a professional **README.md** file tailored specifically for your "Signal - AI Hiring Companion" project. It is designed to impress the Mosaic Wellness Fellowship team by highlighting the "Beat Claude" philosophy and your technical choices.
 
-## Project info
+### Instructions:
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+1. Create a new file in your GitHub repository named `README.md`.
+2. Copy and paste the content below into that file.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+# Signal: AI Hiring Companion (Beat Claude)
 
-**Use Lovable**
+**Live Demo:** [https://signal-hire-genius.lovable.app/](https://signal-hire-genius.lovable.app/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+**Submission for:** Mosaic Wellness Fellowship (HR Team - Problem Statement #6)
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎯 The Vision: Signal vs. Noise
 
-**Use your preferred IDE**
+Most AI hiring tools are "noise"—they focus on keyword matching and memory-based multiple-choice questions. **Signal** is designed to find the "signal": a candidate's actual judgment, first-principles thinking, and high-agency problem-solving.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+This platform simulates real-world D2C challenges to see how a candidate acts when things go wrong, rather than just what they know.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ✨ Key Features
 
-Follow these steps:
+### 1. JD Intelligence (Recruiter Portal)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Instead of just parsing skills, Signal reads a Job Description and identifies the "Core Friction Points" of the role. It generates 3 high-stakes scenario questions that test judgment (e.g., *“The supply chain broke 24 hours before a major sale. What is your immediate pivot?”*).
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 2. Zen-Mode Assessment (Candidate Portal)
 
-# Step 3: Install the necessary dependencies.
-npm i
+A distraction-free interface for candidates to provide long-form, thoughtful responses. The system moves away from "Google-able" answers to scenario-based reasoning.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 3. AI-Powered Leaderboard (Admin Dashboard)
 
-**Edit a file directly in GitHub**
+* **Secure Access:** Protected by a professional auth wall (Admin Login).
+* **Consistency:** Every candidate is scored against the same logic, ensuring fairness.
+* **Deep Analysis:** The AI Scorer provides a "Signal vs. Noise" summary, highlighting why a candidate is a fit or a red flag.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Tech Stack
 
-**Use GitHub Codespaces**
+* **Framework:** Next.js / React
+* **Styling:** Tailwind CSS (Dark Mode / Enterprise SaaS Aesthetic)
+* **Icons:** Lucide-React
+* **UI Components:** Shadcn/ui (Cards, Tables, Modals)
+* **Deployment:** Lovable Cloud
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🚀 How it Works
 
-## What technologies are used for this project?
+1. **Recruiter Login:** Access the secure dashboard.
+2. **JD Input:** Paste a real JD (e.g., from Mosaic Wellness Careers).
+3. **Assessment Generation:** The system creates unique, non-MCQ questions.
+4. **Candidate Test:** Candidates submit their reasoning.
+5. **Review:** Recruiters view ranked results with AI-generated qualitative insights.
 
-This project is built with:
+## 📝 D2C Insight & Design Choices (The "Why")
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* **The "Hour-One" Test:** In a fast-growing D2C startup like Mosaic Wellness, a hire needs "agency." I chose scenario-based questions because they are harder to game with ChatGPT and reveal how a person prioritizes tasks under pressure.
+* **Aesthetic Matters:** A recruiter's job is high-volume. The dark-mode, high-contrast UI reduces eye strain and helps the "Signal" (the data) stand out from the "Noise" (the UI).
+* **Zero Human Bias:** By scoring based on logical depth rather than university names or years of experience, we find the best talent, not just the best resumes.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### 🔑 Admin Credentials for Testing:
 
-## Can I connect a custom domain to my Lovable project?
+* **Username:** `admin`
+* **Password:** `mosaic_fellowship`
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+*Built with ❤️ for the Mosaic Wellness Fellowship.*
