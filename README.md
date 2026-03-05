@@ -1,11 +1,3 @@
-This is a professional **README.md** file tailored specifically for your "Signal - AI Hiring Companion" project. It is designed to impress the Mosaic Wellness Fellowship team by highlighting the "Beat Claude" philosophy and your technical choices.
-
-### Instructions:
-
-1. Create a new file in your GitHub repository named `README.md`.
-2. Copy and paste the content below into that file.
-
----
 
 # Signal: AI Hiring Companion (Beat Claude)
 
@@ -64,6 +56,4 @@ A distraction-free interface for candidates to provide long-form, thoughtful res
 * **Username:** `admin`
 * **Password:** `mosaic_fellowship`
 
----
 
-*Built with ❤️ for the Mosaic Wellness Fellowship.*
