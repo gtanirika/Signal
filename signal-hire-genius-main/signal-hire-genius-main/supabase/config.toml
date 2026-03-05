@@ -1,0 +1,7 @@
+project_id = "lephiuucyhquaogzqybp"
+
+[functions.generate-questions]
+verify_jwt = false
+
+[functions.score-candidate]
+verify_jwt = false
